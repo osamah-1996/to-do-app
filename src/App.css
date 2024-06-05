@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #4AA6F7 !important;
+}
+.body-cotainer {
+ width: 100%;
+ background-color: #4AA6F7;
+ margin: 2% auto;
+ text-align: center;
+}
+/*This is the input Component*/
+.Input-content{ 
+  width: 50%;
+  padding: 30px  10px!important;
+  background-color: #fff;
+  border-radius: 15px;
+  
+}
+/*This is the app list component*/
+.app-list-content{
+  width: 100%;
+  border-bottom: 2px solid #eee;
+  margin: 0px auto;
+}
+.toDo-item{
+  padding: 10px 0px;
+  margin-left: -65px !important;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.toDo-Check-item{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #4AA6F7;
+  border-radius: 50%;
+}
+.toDo-list-content{
+  width: 50% !important;
+  height: auto;
+  margin: 20px auto;
+  width: 50%;
+  padding: 30px  10px!important;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.toDo-delete-item{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #4AA6F7;
+  border-radius: 5px;
+  padding: 10px !important;
+  color: #fff;
+  margin-right: -20px !important;
+}
+.text{
+  margin-left: -20px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+.border-botm{
+  width: 99%;
+  text-align: center; 
+  margin: auto !important;
+  border-bottom: 2px solid #eee;
+}
+/*This is the button Compoent*/
+
+.btn{
+  background-color: #0000ff75 !important;
+  color: #fff !important;
+  /* padding: 10px 10px !important; */
+  margin-left: 10px !important;
+  font-weight: 600 !important;
+}
+
+.clear-btn{
+  background-color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.faTrash{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
